@@ -1,0 +1,4 @@
+Ticker,Trading Days,Date From,Date To,Calendar Days,BD Gaps,Missing Values,Duplicates,Price Violations,Zero Volume
+BARUN,2318,2015-10-14,2026-04-30,3851,434,0,0,0,0
+RADHI,1845,2018-03-26,2026-04-30,2957,269,0,0,0,0
+CHCL,4313,2007-01-02,2026-04-30,7058,730,886,0,1,0
