@@ -1,26 +1,3 @@
-"""
-Fundamentals Preprocessing Pipeline
-=====================================
-Extracts and engineers features from Nepal stock market
-fundamentals CSVs (Balance Sheet, Income Statement, Key Stats).
-
-Usage:
-    from fundamentals_preprocessor import FundamentalsPreprocessor
-
-    # Single company
-    fp = FundamentalsPreprocessor()
-    fp.load("RADHI.csv")
-    df = fp.get_features()
-
-    # Multiple companies
-    fp = FundamentalsPreprocessor()
-    fp.load_multiple(["RADHI.csv", "COMPANY2.csv", "COMPANY3.csv"])
-    df = fp.get_features()
-
-    # Save output
-    fp.save("features_output.csv")
-"""
-
 import pandas as pd
 import numpy as np
 import os

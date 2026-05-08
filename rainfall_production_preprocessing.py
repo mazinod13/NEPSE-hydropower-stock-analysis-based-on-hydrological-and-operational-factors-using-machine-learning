@@ -1,21 +1,3 @@
-"""
-Rainfall and Production Preprocessing
-=====================================
-
-Reads Datasets/rainfall&production.csv, engineers annual hydrology and
-production features, saves feature CSVs, and creates charts.
-
-Outputs:
-    Features/Production/production_features.csv
-    Features/Production/{COMPANY}_production_features.csv
-    Features/Rainfall/rainfall_features.csv
-    Features/Rainfall/{COMPANY}_rainfall_features.csv
-    Output/RP_*.png
-
-Run:
-    python rainfall_production_preprocessing.py
-"""
-
 from pathlib import Path
 
 import matplotlib

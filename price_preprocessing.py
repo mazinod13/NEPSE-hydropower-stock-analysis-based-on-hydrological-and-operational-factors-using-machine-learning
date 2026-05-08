@@ -1,14 +1,4 @@
-"""
-=============================================================================
- NEPSE Hydropower Companies — Multi-Company ML Preprocessing Pipeline
-=============================================================================
- Companies : RADHI, RHPC, UPPER  (edit COMPANIES dict to match your tickers)
- Purpose   : Load → Clean → Engineer Features → Scale → Split → Visualise
-             Produces thesis-quality plots and TensorFlow-ready sequences.
- Usage     : Edit the COMPANIES dict below, then run:
-                 python hydropower_preprocessing.py
-=============================================================================
-"""
+
 
 # ── standard ──────────────────────────────────────────────────────────────
 import os, warnings
